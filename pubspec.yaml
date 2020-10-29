@@ -1,4 +1,4 @@
-name: badge_flutter
+name: badge_dash_team
 description: A flutter package for creating badges. Badges can be used for an additional marker for any widget, e.g. show a number of items in a shopping cart.
 version: 1.1.4
 homepage: https://github.com/isadoraoliv/flutter_badges

@@ -1,7 +1,7 @@
-import 'package:badges/src/badge_animation_type.dart';
-import 'package:badges/src/badge_position.dart';
-import 'package:badges/src/badge_positioned.dart';
-import 'package:badges/src/badge_shape.dart';
+import 'package:badge_flutter/src/badge_animation_type.dart';
+import 'package:badge_flutter/src/badge_position.dart';
+import 'package:badge_flutter/src/badge_positioned.dart';
+import 'package:badge_flutter/src/badge_shape.dart';
 import 'package:flutter/material.dart';
 
 class Badge extends StatefulWidget {
@@ -108,7 +108,8 @@ class BadgeState extends State<Badge> with SingleTickerProviderStateMixin {
     }
     final border = type == MaterialType.circle
         ? null
-        : RoundedRectangleBorder(borderRadius: widget.borderRadius ?? BorderRadius.zero);
+        : RoundedRectangleBorder(
+            borderRadius: widget.borderRadius ?? BorderRadius.zero);
 
     Widget badgeView() {
       return AnimatedOpacity(

@@ -1,4 +1,4 @@
-import 'package:badges/badges.dart';
+import 'package:badges/badge_flutter.dart';
 import 'package:flutter/material.dart';
 
 void main() => runApp(MyApp());

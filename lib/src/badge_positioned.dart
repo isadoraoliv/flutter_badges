@@ -1,4 +1,4 @@
-import 'package:badges/src/badge_position.dart';
+import 'package:badge_flutter/src/badge_position.dart';
 import 'package:flutter/widgets.dart';
 
 class BadgePositioned extends StatelessWidget {
